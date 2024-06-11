@@ -1,7 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Link In One</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(45deg, #ff7e5f, #feb47b);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: #fff;
+      }
+      .container {
+        width: 90%;
+        max-width: 400px;
+        background: #fff;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        color: #333;
+      }
+      .logo {
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+      .link {
+        display: block;
+        margin: 10px 0;
+        padding: 10px 0;
+        text-decoration: none;
+        color: #fff;
+        border-radius: 10px;
+        background: linear-gradient(45deg, #6a11cb, #2575fc);
+        transition: background 0.3s;
+      }
+      .link:hover {
+        background: linear-gradient(45deg, #2575fc, #6a11cb);
+      }
+      .icon {
+        margin-right: 10px;
+      }
+    </style>
+  </head>
   <body>
-    <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
+    <div class="container">
+      <div class="logo">LinkIn1</div>
+      <a href="#" class="link"><span class="icon">🏪</span> Online Store</a>
+      <a href="#" class="link"><span class="icon">🎵</span> TikTok</a>
+      <a href="#" class="link"><span class="icon">💬</span> WhatsApp</a>
+      <a href="#" class="link"><span class="icon">📸</span> Telegram</a>
+      <a href="#" class="link"><span class="icon">📸</span> Instagram</a>
+      <a href="#" class="link"><span class="icon">▶️</span> YouTube</a>
+      <a href="#" class="link"><span class="icon">📧</span> Email</a>
+    </div>
   </body>
 </html>
